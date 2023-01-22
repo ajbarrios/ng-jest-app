@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppHeaderComponent should not render slotted content in the end slot 1`] = `null`;
+
+exports[`AppHeaderComponent should not render slotted content in the start slot 1`] = `null`;
+
+exports[`AppHeaderComponent should render a provided title 1`] = `
+<h2
+  class="title"
+>
+  just a title
+</h2>
+`;
+
+exports[`AppHeaderComponent should render default title if not provided 1`] = `""`;
+
+exports[`AppHeaderComponent should render slotted content in the end slot 1`] = `
+<button
+  end=""
+>
+  Login
+</button>
+`;
+
+exports[`AppHeaderComponent should render slotted content in the start slot 1`] = `
+<nav
+  class="navigation"
+  start=""
+>
+  <a
+    class="item"
+    href="https://www.w3schools.com/html/"
+    target="_blank"
+  >
+    HTML
+  </a>
+  <a
+    class="item"
+    href="https://www.w3schools.com/css/"
+    target="_blank"
+  >
+    CSS
+  </a>
+  <a
+    class="item"
+    href="https://www.w3schools.com/js/"
+    target="_blank"
+  >
+    JavaScript
+  </a>
+  <a
+    class="item"
+    href="https://www.w3schools.com/python/"
+    target="_blank"
+  >
+    Python
+  </a>
+</nav>
+`;

@@ -1,0 +1,23 @@
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  background-color: #282a35;
+  color: #fff;
+}
+
+.title {
+  margin: 0.5rem;
+}
+
+.start {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.end {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
